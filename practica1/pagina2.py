@@ -43,3 +43,21 @@ numeros.remove(3)
 print(len(numeros))
 datos = ['txt', 30, True]
 numeros[1] = 5
+
+#diccionarios
+estudiante = {
+    'nombre' : 'miguel',
+    'edad' : 22,
+    'carrera' : 'ing'
+}
+
+print(estudiante['nombre'])
+estudiante['edad']=30
+estudiante['nota']=8.5
+print(estudiante['nombre'],estudiante['edad'],estudiante['nota'],estudiante['carrera'])
+
+#funciones
+def multiplicar(primero, segundo):
+    return primero * segundo
+
+print(multiplicar(3,2))
